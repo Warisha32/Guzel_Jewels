@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.App-header {
+  margin-bottom: 40px;
+}
+
+.App-footer {
+  margin-top: 40px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
